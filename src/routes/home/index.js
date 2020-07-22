@@ -1,6 +1,8 @@
 import { h } from 'preact';
 import { useEffect } from 'preact/hooks';
-import style from './style';
+import styled from 'styled-components';
+import React from "preact/compat";
+import underConstruction from '../../assets/icons/under-construction.gif';
 
 const Home = () => {
 
@@ -17,8 +19,20 @@ const Home = () => {
 	},[]);
 
 	return (
-		<div  />
+		<HomeContainer  >
+			<UnderConstruction src={underConstruction} alt="Under Construction!!!!!!!!!"/>
+		</HomeContainer>
+
 	);
 };
 
+const UnderConstruction = styled.img`
+	margin: 20px;
+`
+const HomeContainer = styled.div`
+	background: teal;	
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+`;
 export default Home;
