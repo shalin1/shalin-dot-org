@@ -1,4 +1,4 @@
-# blog
+# Shalin dot org
 
 ## CLI Commands
 
@@ -15,6 +15,8 @@ yarn build
 # run tests with jest and preact-render-spy 
 yarn test
 ```
+
+Built from the [Preact Netlify Starter](https://github.com/preactjs/preact-netlify).
 
 For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
 
