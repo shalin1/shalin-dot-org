@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "blog",
-  "description": "Preact's netlify CMS template",
+  "name": "shalin.org",
+  "description": "Shalin personal website, built off Preact's Netlify CMS template",
   "version": "0.1.2",
   "license": "MIT",
   "scripts": {
@@ -60,6 +60,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/preactjs/preact-netlify.git"
+    "url": "git+https://github.com/shalin1/shalin-dot-org"
   }
 }
