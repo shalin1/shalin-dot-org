@@ -58,10 +58,10 @@ export default class App extends Component {
 						<Header />
 						<Router onChange={this.handleRoute}>
 							<Home path="/" />
-							<Blogs path="/blogs/" />
-							<Blog path="/blog/:name" />
-							<Contact path="/contact/" />
-							<ContactSuccess path="/contact/success" />
+							{/*<Blogs path="/blogs/" />*/}
+							{/*<Blog path="/blog/:name" />*/}
+							{/*<Contact path="/contact/" />*/}
+							{/*<ContactSuccess path="/contact/success" />*/}
 							<NotFoundPage type="404" default />
 						</Router>
 					</div>
